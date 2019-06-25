@@ -4,7 +4,8 @@
 }
 
 body {
-    background: radial-gradient(hsl(0, 0%, 7%), #717171, #ffffff);
+    /* background: radial-gradient(hsl(0, 0%, 7%), #717171, #ffffff); */
+    background-image: url(../assets/Images/background.jpg);
 }
 #home {
     font-size: 28px;
@@ -93,6 +94,7 @@ p {
 img {
     margin-left: 0%;
     padding: 0;
+    float: left;
 }
 
 .footer {
