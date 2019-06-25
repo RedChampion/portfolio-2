@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Portfolio 2
 
-You can use the [editor on GitHub](https://github.com/RedChampion/portfolio-2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## What is Portfolio 2?
+Portfolio 2 is an updated portfolio page that includes past and current projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How does Portfolio 2 work?
+Portfolio 2 is simple to navigate.  By using the NavBar at the top the user can switch between the 3 pages (Homepage, Portfolio, and Contact)<br>
+<br>
+On the Portfolio page there are a number of containers that have scroll bars.  Each of these containers had the README.md, HTML, CSS and Javascript code in them.  By scrolling down the user can see all the code used in the project.  Above each box there are two buttons, one will redirect the user to the deployed version of the project and the other will redirect them to the project's Github Repository.
 
-### Markdown
+## Deployment
+Navigate to https://github.com/RedChampion/portfolio-2 to clone the repository.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RedChampion/portfolio-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Built With
+Visual Studio Code
+HTML
+CSS
+Bootstrap
+Javascript
