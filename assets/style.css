@@ -19,7 +19,7 @@ body {
 body .gist .gist-file {
     margin-bottom: 0;
     border: 1px #adb5bd;
-    border-radius: 0;
+    border-radius: 20;
     box-shadow: #495057;
     word-break: break-all;
 }
@@ -27,7 +27,8 @@ body .gist .gist-file {
 body .gist .gist-data {
     border-bottom: none;
     border-radius: 0;
-    background-color: rgb(67, 100, 100);
+    background-color: tan;
+    color: black;
 
 
 }
@@ -71,12 +72,13 @@ body .gist .gist-meta {
     overflow-y: scroll;
     height: 700px;
     resize: none;
+    border-radius: 20px;
 }
 
 form {
     color: aliceblue;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .index-div {
@@ -85,7 +87,7 @@ form {
 
 p {
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 
 img {
@@ -102,3 +104,15 @@ img {
     color: white;
     text-align: center;
   }
+
+.p-color {
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
