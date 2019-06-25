@@ -1,3 +1,7 @@
-function ShowDiv() {
-    document.getElementById("#dogjs").style.display= "auto";
-}
+$("#dogJS").click(function(){
+    $("dogGistsJs").hide();
+  });
+  
+  $("#dogJS").click(function(){
+    $("dogGistsJs").show();
+  });

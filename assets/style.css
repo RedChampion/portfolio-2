@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 7%);
+    background: radial-gradient(hsl(0, 0%, 7%), #717171, #ffffff);
 }
 #home {
     font-size: 28px;
@@ -27,7 +27,9 @@ body .gist .gist-file {
 body .gist .gist-data {
     border-bottom: none;
     border-radius: 0;
-    background-color: tan;
+    background-color: rgb(67, 100, 100);
+
+
 }
 
 body .gist .blob-wrapper {
@@ -64,3 +66,39 @@ body .gist .blob-num {
 body .gist .gist-meta {
     display: none;
 }
+
+.dogGistsJs {
+    overflow-y: scroll;
+    height: 700px;
+    resize: none;
+}
+
+form {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.index-div {
+    background-color: hsl(0, 0%, 19%);
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+img {
+    margin-left: 0%;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 19%);
+    color: white;
+    text-align: center;
+  }
