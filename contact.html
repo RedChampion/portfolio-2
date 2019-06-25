@@ -8,6 +8,7 @@
     <title>Christian O'Keefe</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 
 </head>
@@ -32,7 +33,7 @@
         </div>
     </nav>
     <div class="container">
-    <form action="okeefe.christian94@gmail.com" method="post" enctype="text/plain">
+    <!-- <form action="okeefe.christian94@gmail.com" method="post" enctype="text/plain">
         Name:<br>
         <input type="text" name="name"><br>
         E-mail:<br>
@@ -41,7 +42,12 @@
         <input type="text-area" name="comment" size="50"><br><br>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
-    </form>
+    </form> -->
+    <form action="https://formspree.io/okeefe.christian94@gmail.com" method="POST">
+        Name:<input type="text" name="name">
+        Email:<input type="email" name="_replyto">
+        <input type="submit" value="Send">
+      </form>
     </div>
     <script src="assets/java.js"></script>
     <script src="jquery-3.4.1.min.js"></script>

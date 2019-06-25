@@ -6,6 +6,7 @@
 body {
     /* background: radial-gradient(hsl(0, 0%, 7%), #717171, #ffffff); */
     background-image: url(../assets/Images/background.jpg);
+    font-family: 'Libre Baskerville', serif;
 }
 #home {
     font-size: 28px;
