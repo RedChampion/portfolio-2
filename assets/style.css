@@ -119,3 +119,11 @@ h1 {
 h2 {
     text-align: center;
 }
+
+.link-btn {
+    margin: 2px;
+}
+
+.form-box {
+    width: 33vw;
+}
